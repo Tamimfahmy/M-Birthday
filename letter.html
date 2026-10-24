@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter For You ❤️</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Georgia', serif;
+            overflow: hidden;
+        }
+
+        /* Romantic Letter Card */
+        .letter-card {
+            position: relative;
+            width: 85vw;
+            max-width: 650px;
+            height: 75vh;
+            max-height: 750px;
+            background: #fff9fb;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(136, 14, 79, 0.3);
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 3px solid #ff80ab;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .letter-header {
+            font-size: 28px;
+            color: #880e4f;
+            font-style: italic;
+            font-weight: bold;
+            border-bottom: 2px solid #ffe4e6;
+            padding-bottom: 15px;
+        }
+
+        /* Editable or readable letter content area */
+        .letter-body {
+            flex-grow: 1;
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #4a0e17;
+            overflow-y: auto;
+            white-space: pre-wrap; /* Keeps your paragraph breaks */
+            outline: none;
+        }
+
+        .letter-footer {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #880e4f;
+            font-style: italic;
+            font-weight: bold;
+            text-align: right;
+            border-top: 2px solid #ffe4e6;
+            padding-top: 15px;
+        }
+
+        /* Back Button */
+        .back-btn {
+            position: absolute;
+            top: -50px;
+            left: 0;
+            background: rgba(255, 255, 255, 0.8);
+            color: #880e4f;
+            padding: 8px 18px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: background 0.2s;
+        }
+        .back-btn:hover { background: #ffffff; }
+    </style>
+</head>
+<body>
+
+    <div class="letter-card">
+        <a href="index.html" class="back-btn">← Back to Tree</a>
+        
+        <div class="letter-header">To My Dearest Marioma, ❤️</div>
+        
+        <!-- FILL YOUR LETTER HERE -->
+        <div class="letter-body">
+    Mariam ana bhbk w abmoot feeky w i cant imagine my life without you w bgd enty ahla haga feh hayaty w
+    im the happiest i could have been w you support me always ur with me through thick and thin w ana mesh ayz 8erk w mahma eh hasal im yours 
+    i aint going anywhere ashan ur mineee my soulmate MINEEE w ba8ayr 3aleky awyyy yaany fa law had kalmk i will kill him w law had za3lk hamwto w dayman ha5af 3aleky entyy beta3ty w ana beta3kkk
+        </div>
+
+        <div class="letter-footer">
+            Forever Yours,<br>Tamim ❤️
+        </div>
+    </div>
+
+</body>
+</html>
